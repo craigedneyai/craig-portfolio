@@ -1,11 +1,12 @@
-import type { NextPage } from 'next'
-
+import type { NextPage } from "next";
+import LogoCloud from "../components/logo-cloud";
 
 const Home: NextPage = () => {
   return (
-    <div className="h-32 bg-gray-200">
-    </div>
-  )
-}
+    <>
+      <LogoCloud />
+    </>
+  );
+};
 
-export default Home
+export default Home;
